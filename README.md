@@ -8,8 +8,9 @@ solving some problems, but in functional programming </br>
 those problems will be solved using sml
 </br></br></br>
 #### Problem List
-- Transpose and reflection
-- Meshgrid
-- Chunk
-- Groupby
+
+- Transpose and reflection </br>
+- Meshgrid </br>
+- Chunk </br>
+- Groupby </br>
 
