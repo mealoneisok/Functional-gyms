@@ -33,4 +33,5 @@ in clockwise direction.
 
 ## Solution
 To tranpose a matrix, just get the first elements in each row and do that again on the remaining columns.
+
 To rotate a matrix by 90 degrees, we can first tranpose it and reverse each row in the matrix.
