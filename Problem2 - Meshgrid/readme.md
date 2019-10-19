@@ -14,7 +14,7 @@ Given two list L1, L2, write a function `val meshgrid = fn : 'a list * 'b list -
 
 ## Solution
 My approach is to first generate two matrices X, Y by broadcasting L1 horizontally and L2 vertically. We define htile and vtile to do so and the following is some example: 
-> \- htile([1,2,3], 3); (* repeat [1,2,3] by 3 times horizontally *)
+> \- htile([1,2,3], 3); (* repeat [1,2,3].T by 3 times horizontally *)
 >
 > val it = [[1,1,1], [2,2,2], [3,3,3]] : int list list
 >
