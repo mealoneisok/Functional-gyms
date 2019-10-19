@@ -1,7 +1,7 @@
 # Problem3 - Chunk
 
 ## Description
-Given a list L and a positive integer k, the function `val chunk = fn : int * 'a list -> 'a list list`  splits X into n chunks of size k. Note that if the length of X cannot be divided by k, the length of the last chunk is less than k.
+Given a list X and a positive integer k, the function `val chunk = fn : int * 'a list -> 'a list list`  splits X into n chunks of size k. Note that if the length of X cannot be divided by k, the length of the last chunk is less than k.
 
 ## Example
 > \- chunk(4, [1,1,1,1,2,1,1,3,3,4,5,6,7,7,7,7,8,8]);
