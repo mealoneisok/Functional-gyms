@@ -1,8 +1,6 @@
 # Functional Gyms
 
-> fun primeFilter([]) = []
-> 
->      | primeFilter(p :: ps) = p :: (List.filter (fn x => (x mod p <> 0)) ps)
+> fun primeFilter([]) = [] | primeFilter(p :: ps) = p :: (List.filter (fn x => (x mod p <> 0)) ps)
 > 
 
 
